@@ -20,6 +20,9 @@ if [ -z "${TELEGRAM_API_ID}" ] || [ -z "${TELEGRAM_API_HASH}" ]; then
   exit 1
 fi
 
+TELEGRAM_LOCAL="${TELEGRAM_LOCAL:-1}"
+export TELEGRAM_LOCAL
+
 if [ -n "${PORT}" ]; then
   TELEGRAM_HTTP_PORT="${PORT}"
   export TELEGRAM_HTTP_PORT
