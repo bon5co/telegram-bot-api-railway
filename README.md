@@ -1,5 +1,9 @@
 # telegram-bot-api-railway
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/telegram-bot-api-server-or-just-updated-?referralCode=Z1xivh&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
+**Deploy on Railway:** [Telegram Bot API Server template](https://railway.com/deploy/telegram-bot-api-server-or-just-updated-?referralCode=Z1xivh&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
 Railway wrapper around the official [Telegram Bot API server](https://github.com/tdlib/telegram-bot-api)
 (`aiogram/telegram-bot-api`).
 
